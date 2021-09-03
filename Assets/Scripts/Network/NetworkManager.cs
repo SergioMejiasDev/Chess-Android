@@ -63,6 +63,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
                     return "sa";
                 case Options.Server.SouthKorea:
                     return "kr";
+                case Options.Server.Turkey:
+                    return "tr";
                 case Options.Server.USAEast:
                     return "us";
                 case Options.Server.USAWest:

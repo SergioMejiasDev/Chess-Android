@@ -410,6 +410,9 @@ public class Interface : MonoBehaviour
             case Options.Server.SouthKorea:
                 server = "South Korea";
                 break;
+            case Options.Server.Turkey:
+                server = "Turkey";
+                break;
             case Options.Server.USAEast:
                 server = "USA East";
                 break;

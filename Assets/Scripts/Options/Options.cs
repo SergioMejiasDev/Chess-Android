@@ -93,13 +93,18 @@ public static class Options
         /// </summary>
         SouthKorea,
         /// <summary>
+        /// Turkey (Istanbul).
+        /// </summary>
+        Turkey,
+        /// <summary>
         /// USA, East (Washington D.C.).
         /// </summary>
         USAEast,
         /// <summary>
         /// Usa, West (San José).
         /// </summary>
-        USAWest }
+        USAWest
+    }
 
     #region Properties
 
