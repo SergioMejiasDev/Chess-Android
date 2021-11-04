@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AppSettings:
     AppIdRealtime: 39825c44-0399-4e59-b7fc-76bef2b44139
+    AppIdFusion: 
     AppIdChat: 
     AppIdVoice: 
     AppVersion: 
@@ -32,7 +33,14 @@ MonoBehaviour:
   EnableSupportLogger: 0
   RunInBackground: 1
   StartInOfflineMode: 0
-  RpcList: []
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - DisconnectAllRPC
+  - MovePieceRPC
+  - PromotePieceRPC
+  - StartGameRPC
+  - StartLoadedGameRPC
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 0
